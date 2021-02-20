@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>기린어 게임 메인</title>
+        <style>
+            body{
+                background-color: #EEEEEE;
+                color: white;
+                margin: 0;
+                padding: 0;
+                font-size: 1.1em;
+                text-align:center;
+                font-family: 'Hack';
+            }
+            header{
+                color:  white;
+                background-color: lightblue;
+                padding: 20px;
+            }
+            section {
+                background-color:skyblue;
+                padding: 20px;
+                color: black;
+                display: flex;
+                flex-direction: row-reverse;
+            }
+            footer{
+                background-color: lightsteelblue;
+                padding: 20px;
+            }
+ 
+            section > div {
+                background-color: lightsteelblue;
+                border-radius: 15px;
+                margin: auto;
+                width: 150px;
+                height: 100px;
+                padding: 10px;
+            }
+            ul{
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+                float: right;
+            }
+            li{
+                display: inline;
+                margin: 0 20px 0 0 ;
+            }
+ 
+            #search{
+                border-style: dotted ;
+                border-width: 2px;
+                padding: 5px;
+                margin: 0;
+                display: flex;
+                flex-direction: row-reverse;
+            }
+            #canvas_section{
+                display: block;
+            }
+ 
+            #canvas {
+                margin: 10px;
+                padding: 10px;
+                border-radius: 15px;
+                background: lightblue;
+                border: thin inset lightsteelblue;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">메인 메뉴</a></li>
+                    <li><a href="player.html">게임시작</a></li>
+                </ul>
+            </nav>
+            <div><h1>기린어게임</h1></div>
+        </header>
+        <section id="tripple">
+            <div><a href="how_to_play1.html">영한사전 단어학습<br>도움말</a></div>
+            <div><a href="how_to_play2.html">한영사전 단어학습<br>도움말</a></div>
+            <div><a href="how_to_play3.html">기린어게임<br>도움말</a></div>
+        </section>
+                <p>기린어게임에 리뷰를 남겨보세요!</p>
+                <script>
+                    /**
+                    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                    /*
+                    var disqus_config = function () {
+                    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+                    */
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://web1-tutorial-1.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <footer>
+            불편한 점은 pp2lycee@naver.com으로 문의해주세요.
+        </footer>
+    </body>
+</html>
